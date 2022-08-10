@@ -1,0 +1,7 @@
+a=int(input("enter the value of age of human"))
+
+if a<3:
+    d = int(a*10.5)
+else:
+    d=2*10.5 + (a-2)*4
+print("the value you already entered is ",int(d))
