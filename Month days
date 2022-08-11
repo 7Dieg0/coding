@@ -11,3 +11,18 @@ else:
     print("wrong input!") 
 
 print(b, "days")
+
+
+
+
+
+month_name = input("Enter each month of the year: ") # such as January February...
+
+month_name = month_name.lower()
+
+if month_name == "february" :
+    print("28 / 29")
+elif month_name == "april" or month_name == "june" or month_name == "september" or month_name == "november":
+    print("30")
+else:
+    print("31")
