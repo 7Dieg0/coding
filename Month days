@@ -1,0 +1,13 @@
+a = input("Enter each month of the year: ") # such as January February...
+
+if a == "January" or a == "March" or a == "May" or a == "July" or a == "August" or a == "October" or a== "December":
+    b = 31
+elif a == "February" :
+    b = "28 / 29"
+elif a == "April" or a == "June" or a == "September" or a== "November":
+    b = 30
+
+else:
+    print("wrong input!") 
+
+print(b, "days")
