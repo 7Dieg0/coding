@@ -16,13 +16,14 @@ print(b, "days")
 
 
 
-month_name = input("Enter each month of the year: ") # such as January February...
+month_name = input("Enter the name of Month: ") # such as January February...
 
 month_name = month_name.lower()
 
 if month_name == "february" :
-    print("28 / 29")
+    print("No. of days 28 / 29 days") 
 elif month_name == "april" or month_name == "june" or month_name == "september" or month_name == "november":
-    print("30")
+    print("No. of days: 30 days")
 else:
-    print("31")
+    print("No. of days: 31 days")
+
