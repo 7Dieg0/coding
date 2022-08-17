@@ -1,0 +1,8 @@
+i = 0
+total = 0
+while i <= 10:
+    total = total + i
+    average = total / 10
+    i += 1
+print(f'Sum of the Integers is {total}')
+print(f'Average of the Integers is {average}')
