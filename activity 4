@@ -1,3 +1,8 @@
+"""
+Write a Python program that ask user to input two numbers. Check if both numbers are divisible by 2 or
+3, if yes multiply them and print them on screen. If not, add them and then print it on screen. 
+"""
+
 num1 = int(input("enter a number: "))
 num2 = int(input("enter a number: "))
 if ((num1 % 2 == 0) or (num1 % 3 == 0)) and ((num2 % 2 == 0) or (num2 % 3 == 0)):
