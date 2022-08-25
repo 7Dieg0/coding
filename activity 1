@@ -1,3 +1,8 @@
+"""
+Input a dog's age in human years: 15
+The dog's age in dog's years is 73
+"""
+
 a=int(input("enter the value of age of human"))
 
 if a<3:
