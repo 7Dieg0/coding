@@ -1,3 +1,8 @@
+"""
+Input the name of Month: February
+No. of days: 28/29 days 
+"""
+
 a = input("Enter each month of the year: ") # such as January February...
 
 if a == "January" or a == "March" or a == "May" or a == "July" or a == "August" or a == "October" or a== "December":
