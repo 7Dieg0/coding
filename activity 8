@@ -1,0 +1,16 @@
+"""
+Enter an Integer number (Table to be calculated): 15
+ 15 X 1 = 15
+...
+...
+...
+15 X 10 = 150
+"""
+
+
+num = int(input("enter the number= "))
+i = 1
+
+while i<=10:
+    print(num, "X", i, "=", num * i)
+    i = i+1
